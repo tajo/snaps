@@ -18,10 +18,10 @@ jobs:
         run: npm install
 
       - name: Build app
-        run: npm run build
+        run: npm run ladle build
 
       - name: Start server (in background)
-        run: npm run start &
+        run: npm run ladle serve &
 
       - name: Lost Pixel
         uses: lost-pixel/lost-pixel@v3.4.0
