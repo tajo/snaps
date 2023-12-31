@@ -7,7 +7,7 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "start": "ladle serve",
+    "start": "ladle serve --host http://172.17.0.1",
     "build": "ladle build"
   },
   "dependencies": {
