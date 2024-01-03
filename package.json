@@ -1,0 +1,19 @@
+{
+  "name": "snaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "ladle serve -p 80",
+    "build": "ladle build"
+  },
+  "dependencies": {
+    "@ladle/react": "^4.0.2",
+    "lost-pixel": "^3.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
